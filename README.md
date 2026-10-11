@@ -12,6 +12,12 @@ Distinct from this workspace's `certwatch`, deliberately: that one answers
 answers "is this endpoint's TLS configuration actually defensible", which is
 a thing you ask once per deploy and then argue about in a ticket.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
